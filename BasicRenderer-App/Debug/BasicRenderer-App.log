@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\OGL-Graphics\Camera.h(29,9): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\OGL-Graphics\VAO.h(27,20): warning C4018: '<': signed/unsigned mismatch
+Source.obj : error LNK2019: unresolved external symbol __imp__glGetError@0 referenced in function "void __cdecl GLclearError(void)" (?GLclearError@@YAXXZ)
+C:\Dev\BasicRenderer\Debug\BasicRenderer-App.exe : fatal error LNK1120: 1 unresolved externals

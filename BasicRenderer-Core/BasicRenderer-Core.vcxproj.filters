@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2a6b0b2a-ff3a-4574-8ebc-a8ffb41577c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{825e19e6-86b1-495d-a271-565a33b4bfac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\init.h">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\OGL-Graphics\VBO.h" />
+    <ClInclude Include="src\OGL-Graphics\IBO.h" />
+    <ClInclude Include="src\OGL-Graphics\VAO.h" />
+    <ClInclude Include="src\OGL-Graphics\VBLayout.h" />
+    <ClInclude Include="src\OGL-Graphics\Shader.h" />
+    <ClInclude Include="src\OGL-Graphics\Core.h" />
+    <ClInclude Include="src\OGL-Graphics\Renderer.h" />
+    <ClInclude Include="src\OGL-Graphics\Texture.h" />
+    <ClInclude Include="src\Core\BOX.h" />
+    <ClInclude Include="src\OGL-Graphics\Camera.h" />
+    <ClInclude Include="src\Core\Application.h" />
+    <ClInclude Include="src\OGL-Graphics\Mesh.h" />
+    <ClInclude Include="src\OGL-Graphics\Material.h" />
+    <ClInclude Include="src\Core\ModelComponent.h" />
+    <ClInclude Include="src\Core\CameraComponent.h" />
+    <ClInclude Include="src\Header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\BasicShader.shader" />
+    <None Include="packages.config" />
+    <None Include="Resources\Shaders\StandardMatShader.shader" />
+  </ItemGroup>
+</Project>

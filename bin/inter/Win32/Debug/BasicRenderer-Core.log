@@ -1,0 +1,15 @@
+﻿  init.h
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\OGL-Graphics\Camera.h(29,9): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\OGL-Graphics\VAO.h(27,20): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\OGL-Graphics\Mesh.h(186,23): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\init.h(116,28): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\init.h(132,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\init.h(204,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\init.h(205,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\init.h(209,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\init.h(210,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\init.h(212,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\init.h(213,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\init.h(226,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\init.h(226,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  BasicRenderer-Core.vcxproj -> C:\Dev\BasicRenderer\bin\Win32\Debug\BasicRenderer-Core.lib
