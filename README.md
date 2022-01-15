@@ -1,2 +1,5 @@
 # BasicRenderer
- Basic renderer engine with material edition interface made by myself 
+
+WORK IN PROGRESS
+
+Uses OpenGL 4.4
