@@ -1,17 +1,17 @@
 #pragma once
 #include <iostream>
 #include <fstream>
-#include <gl/glew.h>
-#include <GLFW/glfw3.h>
+//#include <gl/glew.h>
+//#include <GLFW/glfw3.h>
 #include <string>
-#include <sstream>
-#include <Shader.h>
+//#include <sstream>
+#include "Shader.h"
 #include "Core/BOX.h"
 #include "Camera.h"
-#include <Texture.h>
+#include "Texture.h"
 #include "Mesh.h"
-#include "Core/ModelComponent.h"
-namespace Renderer {
+#include "Core/Model.h"
+
 
     void framebuffer_size_callback(GLFWwindow* window, int width, int height);
     void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods);
@@ -111,7 +111,7 @@ namespace Renderer {
         Material tengu_m(&ourShader);
         tengu_m.addColorTex(&tenguColorTex);
         tengu_m.addNormalTex(&tenguNormalTex);
-        ModelComponent demon;
+        Model demon;
         demon.loadMesh("tengu.obj");
         demon.setScale(0.12);
         demon.loadMaterial(&tengu_m);
@@ -174,7 +174,7 @@ namespace Renderer {
                   //glDrawArrays(GL_TRIANGLES, 0, 36);
             }
             //tengu.draw();
-            demon.draw();
+           demon.draw();
 
 
             // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
@@ -240,4 +240,3 @@ namespace Renderer {
 
         return 1;
     }
-}

@@ -9,9 +9,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\init.h">
+    <ClCompile Include="src\main.h">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\OGL-Graphics\Camera.cpp" />
+    <ClCompile Include="src\OGL-Graphics\IBO.cpp" />
+    <ClCompile Include="src\OGL-Graphics\Material.cpp" />
+    <ClCompile Include="src\OGL-Graphics\Mesh.cpp" />
+    <ClCompile Include="src\OGL-Graphics\Shader.cpp" />
+    <ClCompile Include="src\OGL-Graphics\Texture.cpp" />
+    <ClCompile Include="src\OGL-Graphics\VAO.cpp" />
+    <ClCompile Include="src\OGL-Graphics\VBO.cpp" />
+    <ClCompile Include="src\Core\Model.cpp" />
+    <ClCompile Include="src\OGL-Graphics\Core.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\OGL-Graphics\VBO.h" />
@@ -19,21 +29,46 @@
     <ClInclude Include="src\OGL-Graphics\VAO.h" />
     <ClInclude Include="src\OGL-Graphics\VBLayout.h" />
     <ClInclude Include="src\OGL-Graphics\Shader.h" />
-    <ClInclude Include="src\OGL-Graphics\Core.h" />
-    <ClInclude Include="src\OGL-Graphics\Renderer.h" />
     <ClInclude Include="src\OGL-Graphics\Texture.h" />
     <ClInclude Include="src\Core\BOX.h" />
     <ClInclude Include="src\OGL-Graphics\Camera.h" />
-    <ClInclude Include="src\Core\Application.h" />
     <ClInclude Include="src\OGL-Graphics\Mesh.h" />
     <ClInclude Include="src\OGL-Graphics\Material.h" />
-    <ClInclude Include="src\Core\ModelComponent.h" />
-    <ClInclude Include="src\Core\CameraComponent.h" />
-    <ClInclude Include="src\Header.h" />
+    <ClInclude Include="src\Core\SceneObject.h" />
+    <ClInclude Include="src\OGL-Graphics\Core.h" />
+    <ClInclude Include="src\Core\Model.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Shaders\BasicShader.shader" />
     <None Include="packages.config" />
     <None Include="Resources\Shaders\StandardMatShader.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\BODY_LP_2_Material _25_Height.png" />
+    <Image Include="Resources\Textures\BODY_LP_2_Material _25_Normal.png" />
+    <Image Include="Resources\Textures\color.png" />
+    <Image Include="Resources\Textures\color2.png" />
+    <Image Include="Resources\Textures\emissive.png" />
+    <Image Include="Resources\Textures\DiffuseMap.png" />
+    <Image Include="Resources\Textures\floor.jpg" />
+    <Image Include="Resources\Textures\torii-occ.png" />
+    <Image Include="Resources\Textures\torii-normal.png" />
+    <Image Include="Resources\Textures\torii-gloss.png" />
+    <Image Include="Resources\Textures\torii.png" />
+    <Image Include="Resources\Textures\tengu-normal.png" />
+    <Image Include="Resources\Textures\tengu-gloss.png" />
+    <Image Include="Resources\Textures\tengu-color.png" />
+    <Image Include="Resources\Textures\specMap.png" />
+    <Image Include="Resources\Textures\SeamlessWood-RoughnessMap.tif" />
+    <Image Include="Resources\Textures\SeamlessWood-NormalMap.tif" />
+    <Image Include="Resources\Textures\SeamlessWood-HeightMap.tif" />
+    <Image Include="Resources\Textures\SeamlessWood-GlossMap.tif" />
+    <Image Include="Resources\Textures\SeamlessWood-Diffuse.jpg" />
+    <Image Include="Resources\Textures\RoughnessMap.png" />
+    <Image Include="Resources\Textures\NormalMap.png" />
+    <Image Include="Resources\Textures\normal.png" />
+    <Image Include="Resources\Textures\Material _25_Opacity.png" />
+    <Image Include="Resources\Textures\floor-normal.jpg" />
+    <Image Include="Resources\Textures\floor-gloss.jpg" />
   </ItemGroup>
 </Project>

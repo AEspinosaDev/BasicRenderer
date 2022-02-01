@@ -2,6 +2,9 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>C:\Dev\BasicRenderer\bin\Win32\Debug\BasicRenderer-Core.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>C:\Dev\BasicRenderer\Debug\BasicRenderer-App.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
