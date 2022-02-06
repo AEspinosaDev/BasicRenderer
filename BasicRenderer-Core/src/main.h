@@ -31,7 +31,7 @@
     int boot();
 
 
-    int main()
+    int raba()
     {
         // glfw: initialize and configure
         // ------------------------------

@@ -1,5 +1,5 @@
 #pragma once
-#include "Core.h"
+#include "Graphics_Core.h"
 
 
 //Index buffer object

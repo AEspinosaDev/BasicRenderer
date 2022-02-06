@@ -21,7 +21,7 @@
     <ClCompile Include="src\OGL-Graphics\VAO.cpp" />
     <ClCompile Include="src\OGL-Graphics\VBO.cpp" />
     <ClCompile Include="src\Core\Model.cpp" />
-    <ClCompile Include="src\OGL-Graphics\Core.cpp" />
+    <ClCompile Include="src\OGL-Graphics\Graphics_Core.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\OGL-Graphics\VBO.h" />
@@ -35,7 +35,7 @@
     <ClInclude Include="src\OGL-Graphics\Mesh.h" />
     <ClInclude Include="src\OGL-Graphics\Material.h" />
     <ClInclude Include="src\Core\SceneObject.h" />
-    <ClInclude Include="src\OGL-Graphics\Core.h" />
+    <ClInclude Include="src\OGL-Graphics\Graphics_Core.h" />
     <ClInclude Include="src\Core\Model.h" />
   </ItemGroup>
   <ItemGroup>

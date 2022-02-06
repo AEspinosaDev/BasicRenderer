@@ -1,2 +1,3 @@
 ﻿  Source.cpp
-  BasicRenderer-App.vcxproj -> C:\Dev\BasicRenderer\Debug\BasicRenderer-App.exe
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\OGL-Graphics\Camera.h(30,8): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Dev\BasicRenderer\BasicRenderer-Core\src\OGL-Graphics\Mesh.h(7,10): fatal error C1083: Cannot open include file: 'assimp/Importer.hpp': No such file or directory
